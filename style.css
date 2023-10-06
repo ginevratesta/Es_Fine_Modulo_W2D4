@@ -1,0 +1,102 @@
+body {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+main,
+ {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  display: flex;
+}
+.vertical{
+    flex-direction: column;
+}
+#navbar,
+#section {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+#navbar {
+    height: 10vh;
+    -webkit-box-shadow: 0px -4px 11px 7px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px -4px 11px 7px rgba(0, 0, 0, 0.07);
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar img {
+  height: 25px;
+  width: 170px;
+}
+#nav-icons {
+    width: 320px;
+    justify-content: space-between;
+    align-items: center;
+}
+#searchbutton,
+#userbutton {
+    height: 30px;
+}
+#searchbutton {
+    width: 150px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    background-color: white;
+}
+#userbutton {
+    padding-top: 3px;
+    font-size: large;
+    width: 30px;
+    color: white;
+    background-color:#EE5135;
+    border-style: none;
+    border-radius: 50%;
+}
+#article-align {
+    width: 70%;
+    height: 80vh;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: lightgrey;
+  }
+#options {
+  width: 92%;
+  height: 30px;
+  margin-top: 50px;
+  padding-left: 5px;
+  gap: 20px;
+  font-size: small;
+  color: gray;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: lightgray;
+}
+#bold{
+    font-weight: bold;
+    color: black;
+    margin-bottom: -1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+}
+#article {
+}
+
+#mediumlogo{
+    width: 40px;
+}
+#twitterlogo{
+    width: 20px;
+}
+#logos{
+
+}
+#aside {
+    margin-left: 55px;
+    width: 30%;
+}
+
+
