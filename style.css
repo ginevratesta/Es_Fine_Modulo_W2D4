@@ -101,12 +101,11 @@ font-size: small;
 }
 #gray{
   color: gray;
-gap: 10px;}
+  gap: 5px;}
 .article {
+  justify-content: space-between;
   width: 92%;
   height: 150px;
-  /*margin-top: 40px;
-  margin-bottom: 40px;*/
 }
 .article h2 {
   margin-top: 0px;
