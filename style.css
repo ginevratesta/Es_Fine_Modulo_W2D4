@@ -117,9 +117,10 @@ font-size: small;
   color: gray;
 }
 .article img{
+  min-width: 220px;
+  max-width: 220px;
   width: 220px;
   height: 130px;
-  object-fit: cover;
 }
 #article-bottom{
   width: 95%;
