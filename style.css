@@ -59,10 +59,10 @@ main {
 
 #section {
   padding-right: 50px;
+  height: 200vh;
 }
 #article-align {
   width: 80%;
-  height: 150vh;
   border-right-style: solid;
   border-right-width: 1px;
   border-right-color: lightgrey;
@@ -93,11 +93,11 @@ main {
 #article {
 }
 #aside-container {
-  margin-left: 50px;
+  padding-left: 45px;
+  padding-right: 60px;
   width: 40%;
 }
 #aside {
-  width: 80%;
   justify-content: space-around;
   align-items: center;
   padding-top: 30px;
@@ -136,6 +136,7 @@ main {
   color: grey;
 }
 #aside-mid {
+  width: 80%;
   height: 40vh;
   margin-top: 30px;
 }
@@ -150,4 +151,40 @@ main {
 }
 #buttons {
   flex-wrap: wrap;
+  gap: 10px;
+}
+#aside-bottom{
+  justify-content: space-between;
+}
+.bottom-left{
+  align-items: center;
+}
+.bottom-left img{
+  margin-right: 15px;
+  aspect-ratio: 1/1;
+  width:50px;
+  border-radius: 50%;
+}
+.bottom-left h4{
+  margin-bottom: 5px;
+}
+.bottom-left p{
+  width: 200px;
+  margin-top: 5px;
+  font-size: small;
+  color: gray;
+}
+#followbutton{
+  justify-content: space-around;
+}
+#followbutton button{
+  color: gray;
+  background-color: white;
+  height: 30px;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
