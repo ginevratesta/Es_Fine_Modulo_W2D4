@@ -90,7 +90,38 @@ main {
   border-bottom-width: 1px;
   border-bottom-color: black;
 }
-#article {
+.article-box{
+  justify-content: space-between;
+}
+.article span{
+font-size: small;
+}
+#gray{
+  color: gray;
+gap: 10px;}
+.article {
+  width: 92%;
+  height: 150px;
+  /*margin-top: 40px;
+  margin-bottom: 40px;*/
+}
+.article h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.article p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: gray;
+}
+.article img{
+  width: 220px;
+  height: 130px;
+  object-fit: cover;
+}
+#article-bottom{
+  width: 95%;
+  justify-content: space-between;
 }
 #aside-container {
   padding-left: 45px;
