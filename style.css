@@ -60,9 +60,11 @@ main {
 #section {
   padding-right: 50px;
   height: 200vh;
+
 }
 #article-align {
   width: 80%;
+  justify-content: space-between;
   border-right-style: solid;
   border-right-width: 1px;
   border-right-color: lightgrey;
@@ -90,6 +92,7 @@ main {
   border-bottom-width: 1px;
   border-bottom-color: black;
 }
+
 .article-box{
   justify-content: space-between;
 }
