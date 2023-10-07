@@ -95,7 +95,7 @@ main {
 #aside-container {
   padding-left: 45px;
   padding-right: 60px;
-  width: 40%;
+  width: 35%;
 }
 #aside {
   justify-content: space-around;
@@ -136,7 +136,7 @@ main {
   color: grey;
 }
 #aside-mid {
-  width: 80%;
+  width: 90%;
   height: 40vh;
   margin-top: 30px;
 }
@@ -189,17 +189,49 @@ main {
   padding-right: 10px;
 }
 #more-op{
-  justify-content: space-between;
+  margin-top: 30px;
+  width: 85%;
 }
-#more-op img{
+.pic-align{
+  align-items: center;
+  gap: 4px;
+  
+}
+.pic-align img{
   width: 20px;
   object-fit: cover;
   aspect-ratio: 1/1;
   border-radius: 50%;
 }
-#aside-end{
-  margin-top: 80px;
-  gap: 20px;
+.more-op1{
+  height: 20vh;
+  gap: 15px;
+}
+.more-op1 p {
+  font-size: small;
+  margin-bottom: 0px;
+}
+.more-op1 span{
+  font-size: small;
   color: gray;
+}
+.more-op1 h4{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#green{
+  font-size: small;
+  color: green;
+}
+#aside-end{
+  width: 85%;
+  margin-top: 80px;
   flex-wrap: wrap;
+  gap: 10px;
+
+}
+#aside-end span{
+  font-size: small;
+  color: gray;
+
 }
