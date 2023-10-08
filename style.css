@@ -12,6 +12,9 @@ main {
 .vertical {
   flex-direction: column;
 }
+.align-center{
+  align-items: center;
+}
 #navbar,
 #section {
   padding-left: 120px;
@@ -24,7 +27,6 @@ main {
   -webkit-box-shadow: 0px -4px 11px 7px rgba(0, 0, 0, 0.07);
   box-shadow: 0px -4px 11px 7px rgba(0, 0, 0, 0.07);
   justify-content: space-between;
-  align-items: center;
 }
 #navbar img {
   height: 25px;
@@ -33,7 +35,6 @@ main {
 #nav-icons {
   width: 320px;
   justify-content: space-between;
-  align-items: center;
 }
 #searchbutton,
 #userbutton {
@@ -94,6 +95,7 @@ main {
 }
 
 .article-box{
+  width: 70%;
   justify-content: space-between;
 }
 .article span{
@@ -107,13 +109,12 @@ font-size: small;
   width: 92%;
   height: 150px;
 }
-.article h2 {
+.article h2,
+.article p{
   margin-top: 0px;
   margin-bottom: 0px;
 }
 .article p{
-  margin-top: 0px;
-  margin-bottom: 0px;
   color: gray;
 }
 .article img{
@@ -122,9 +123,13 @@ font-size: small;
   width: 220px;
   height: 130px;
 }
+#article-bottom,
+#logos,
+#aside-bottom{
+  justify-content: space-between;
+}
 #article-bottom{
   width: 95%;
-  justify-content: space-between;
 }
 #aside-container {
   padding-left: 45px;
@@ -132,23 +137,18 @@ font-size: small;
   width: 35%;
 }
 #aside {
-  justify-content: space-around;
-  align-items: center;
   padding-top: 30px;
   padding-bottom: 30px;
   height: 30vh;
 }
 #logos {
   width: 25%;
-  justify-content: space-between;
-  align-items: center;
 }
 #mediumlogo {
   width: 40px;
 }
 #twitterbutton {
   justify-content: center;
-  align-items: center;
 }
 .twitterlogo {
   width: 25px;
@@ -187,17 +187,12 @@ font-size: small;
   flex-wrap: wrap;
   gap: 10px;
 }
-#aside-bottom{
-  justify-content: space-between;
-}
-.bottom-left{
-  align-items: center;
-}
 .bottom-left img{
   margin-right: 15px;
   aspect-ratio: 1/1;
   width:50px;
   border-radius: 50%;
+  object-fit: cover;
 }
 .bottom-left h4{
   margin-bottom: 5px;
@@ -208,7 +203,9 @@ font-size: small;
   font-size: small;
   color: gray;
 }
-#followbutton{
+#followbutton,
+#aside
+{
   justify-content: space-around;
 }
 #followbutton button{
@@ -227,7 +224,6 @@ font-size: small;
   width: 85%;
 }
 .pic-align{
-  align-items: center;
   gap: 4px;
   
 }
