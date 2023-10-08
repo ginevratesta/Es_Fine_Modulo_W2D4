@@ -106,7 +106,8 @@ main {
   height: 150px;
 }
 .article h2,
-.article p {
+.article p,
+.more-op1 h4{
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -233,10 +234,6 @@ main {
 .more-op1 span {
   font-size: small;
   color: gray;
-}
-.more-op1 h4 {
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 #green {
   font-size: small;
