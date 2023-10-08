@@ -12,10 +12,10 @@ main {
 .vertical {
   flex-direction: column;
 }
-.align-center{
+.align-center {
   align-items: center;
 }
-.space-between{
+.space-between {
   justify-content: space-between;
 }
 #navbar,
@@ -60,7 +60,6 @@ main {
 #section {
   padding-right: 50px;
   height: 200vh;
-
 }
 #article-align {
   width: 80%;
@@ -92,34 +91,35 @@ main {
   border-bottom-color: black;
 }
 
-.article-box{
+.article-box {
   width: 70%;
 }
-.article span{
-font-size: small;
+.article span {
+  font-size: small;
 }
-#gray{
+#gray {
   color: gray;
-  gap: 5px;}
+  gap: 5px;
+}
 .article {
   width: 92%;
   height: 150px;
 }
 .article h2,
-.article p{
+.article p {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.article p{
+.article p {
   color: gray;
 }
-.article img{
+.article img {
   min-width: 220px;
   max-width: 220px;
   width: 220px;
   height: 130px;
 }
-#article-bottom{
+#article-bottom {
   width: 95%;
 }
 #aside-container {
@@ -178,28 +178,27 @@ font-size: small;
   flex-wrap: wrap;
   gap: 10px;
 }
-.bottom-left img{
+.bottom-left img {
   margin-right: 15px;
   aspect-ratio: 1/1;
-  width:50px;
+  width: 50px;
   border-radius: 50%;
   object-fit: cover;
 }
-.bottom-left h4{
+.bottom-left h4 {
   margin-bottom: 5px;
 }
-.bottom-left p{
+.bottom-left p {
   width: 200px;
   margin-top: 5px;
   font-size: small;
   color: gray;
 }
 #followbutton,
-#aside
-{
+#aside {
   justify-content: space-around;
 }
-#followbutton button{
+#followbutton button {
   color: gray;
   background-color: white;
   height: 30px;
@@ -210,20 +209,20 @@ font-size: small;
   padding-left: 10px;
   padding-right: 10px;
 }
-#more-op{
+#more-op {
   margin-top: 30px;
   width: 85%;
 }
-.pic-align{
+.pic-align {
   gap: 4px;
 }
-.pic-align img{
+.pic-align img {
   width: 20px;
   object-fit: cover;
   aspect-ratio: 1/1;
   border-radius: 50%;
 }
-.more-op1{
+.more-op1 {
   height: 20vh;
   gap: 15px;
 }
@@ -231,27 +230,25 @@ font-size: small;
   font-size: small;
   margin-bottom: 0px;
 }
-.more-op1 span{
+.more-op1 span {
   font-size: small;
   color: gray;
 }
-.more-op1 h4{
+.more-op1 h4 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-#green{
+#green {
   font-size: small;
   color: green;
 }
-#aside-end{
+#aside-end {
   width: 85%;
   margin-top: 80px;
   flex-wrap: wrap;
   gap: 10px;
-
 }
-#aside-end span{
+#aside-end span {
   font-size: small;
   color: gray;
-
 }
