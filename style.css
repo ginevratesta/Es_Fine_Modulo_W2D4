@@ -195,11 +195,10 @@ main {
   font-size: small;
   color: gray;
 }
-#followbutton,
 #aside {
   justify-content: space-around;
 }
-#followbutton button {
+.followbutton{
   color: gray;
   background-color: white;
   height: 30px;
